@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+header{
+    position: relative;
+    background-color: rgb(240, 134, 155);
+    width: 100%;
+    height: 15vw;
+    
+}
+
+#logoholder{
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+#logo{
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+    height: 2vw;
+    width: 8vw;
+    font: 2vw;
+    text-align: center;
+    background-color: rgb(115, 239, 255);
+}
+
+
+ol{ 
+    position: absolute;
+    top: 2vw;
+    height: 0vw;
+    width: 100%;
+    font-size: 2.5vw;
+    overflow: hidden;
+    background-color: rgb(240, 134, 155);
+    transition: 1000ms ease-in-out;
+}
+
+li{
+    border-style: dotted;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu1{
+left: 50vw;
+top: 12.6vw;
+border-style: dotted;
+color: white;
+}
+
+#menu1text{
+    position: absolute;
+    bottom: -0.5vw;
+    left: 1.5vw;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Allison', cursive;
+    z-index: 1;
+}
+
+#menu1:hover > ol{
+    height: 13.2vw;
+    transition: 500ms ease-in-out;
+    color: orchid;
+}
+
+
+
+.dropdown:hover > #ol{
+    background-color: orchid;
+}
+
+ol:hover{
+    height: 15vw;
+    transition: 500ms ease-in-out;
+    color: orchid;
+}
+
+
+
+
+

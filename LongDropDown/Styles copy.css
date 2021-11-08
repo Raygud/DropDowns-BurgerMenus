@@ -1,0 +1,19 @@
+ol{
+    background-color: blue;
+    width: 10vw;
+    height: 4vw;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    transition: 1000ms ease-in-out;
+}
+
+li{
+    list-style-type: none;
+}
+
+ol:hover{
+    height: 23vw;
+}

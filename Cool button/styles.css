@@ -1,0 +1,33 @@
+
+
+h1{
+    text-align: center;
+    font-size: 7vw;
+}
+
+#expandingbutton{
+margin-left: 20vw;
+width: 2vw;
+height: 1vw;
+    background-color: turquoise;
+    border-radius: 1vw;
+}
+
+#expandingbutton:hover{
+    animation: expander 10s linear;
+    -webkit-animation-fill-mode: forwards ;
+}
+
+@-webkit-keyframes expander {
+    5% { width: 4vw; height: 2vw; transform: rotate(360deg);}
+    10% { width: 8vw; height: 4vw; transform: rotate(720deg);margin-left: 16vw;}
+    15% { width: 16vw; height: 8vw; transform: rotate(1080deg);margin-left: 12vw;}
+    40% {}
+    50% {}
+    60% {}
+    70% {}
+    80% {}
+    90% {}
+    100% {}
+
+}

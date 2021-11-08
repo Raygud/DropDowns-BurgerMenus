@@ -1,0 +1,46 @@
+.button{
+    width: 80px;
+    height: 22px;
+    position: relative;
+    background-color: blue;
+    transform-origin:bottom
+}
+
+.button:hover > #top{
+    top: 0px;
+    transform: skew(20deg);
+}
+
+.button:hover > #bottom{
+    top: 0px;
+    transform: skew(-20deg);
+}
+
+
+
+#top{
+    position: relative;top: 10.5px;
+    border-top: 1px solid rgb(255, 0, 0);
+    transform: rotate(-15deg);
+    transition: 1s;
+    rotate: (20deg);
+}
+
+#left{
+    position: absolute;
+    border-left: 1px solid gray;
+    height: 20px;
+}
+
+#bottom{
+    position: relative;top: -10.5px;
+    border-top: 1px solid rgb(255, 0, 0);
+    transform: rotate(15deg);
+    transition: 1s;
+    rotate: (20deg);
+}
+#left{
+    position: relative;
+    border-right: 1px solid gray;
+    height: 20px;
+}

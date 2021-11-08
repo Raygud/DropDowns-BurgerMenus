@@ -1,0 +1,50 @@
+ol{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(234, 129, 255);
+    font-size: 2vw;
+    font-weight: 700;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    text-align: center;
+    width: 14vw;
+    height: 2.8vw;
+    overflow: hidden;
+    animation: dropupper 2s ;
+    -webkit-animation-fill-mode: forwards;
+    
+}
+
+li{
+    border-style: solid;
+    border-color: black;
+    color: rgb(235, 249, 255);
+}
+
+ol:hover{
+    animation: dropdowner 2s ;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+
+@keyframes dropdowner{
+    0% {height: 2.8vw;}
+    25% {height: 5.6vw;}
+    50% {height: 8.4vw;}
+    75% {height: 11.2vw;}
+    100% {height: 13.6vw;}
+
+}
+
+@keyframes dropupper{
+    
+    0% {height: 14vw;}
+    25% {height: 11.2vw;}
+    50% {height: 8.4vw;}
+    75% {height: 5.6vw;}
+    100% {height: 2.8vw;}
+
+}
+
+
