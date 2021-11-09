@@ -2,41 +2,46 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 header nav {
   position: relative;
   background-color: #2b2b2b;
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 
 header nav img {
   height: 100%;
 }
 
+/* <!----------- COPY THIS ----------->
+   <!----------- COPY THIS ----------->
+   <!----------- COPY THIS -----------> */
 #DropButton {
   transition: 500ms ease-in-out;
   position: fixed;
-  top: 35px;
-  right: 35px;
+  top: 20px;
+  right: 25px;
   color: #5af4ff;
   font-size: 80px;
   z-index: 5;
-  width: 150px;
-  height: 100px;
+  width: 80px;
+  height: 60px;
 }
 
 #DropButton div {
   transition: 500ms ease-in-out;
-  background-color: red;
   transform-origin: center;
 }
 
 #DropButton div:nth-child(1) {
   position: absolute;
   width: 100%;
-  height: 20px;
+  height: 20%;
   right: 0;
   top: 0;
   transform: rotate();
@@ -44,59 +49,49 @@ header nav img {
 
 #DropButton div:nth-child(2) {
   position: absolute;
-  top: 40px;
+  top: 40%;
   width: 100%;
-  height: 20px;
+  height: 20%;
 }
 
 #DropButton div:nth-child(3) {
   position: absolute;
   width: 100%;
-  height: 20px;
-  bottom: 40px;
+  height: 20%;
+  bottom: 40%;
 }
 
 #DropButton div:nth-child(4) {
   bottom: 0;
   position: absolute;
   width: 100%;
-  height: 20px;
+  height: 20%;
 }
 
 #SideMenu {
   position: absolute;
   transition: 500ms ease-in-out;
   position: absolute;
-  width: 100%;
-  height: 400px;
+  width: 0;
+  height: 330px;
   right: 0;
-  top: 0;
-  width: 0%;
-  background-color: yellow;
+  top: 99px;
+  background-color: #262626;
 }
 
-#content {
-  position: relative;
-  transition: 500ms ease-in-out;
-  width: 100%;
-  background-color: brown;
+#SideMenu ol {
+  margin-left: 20px;
+  position: fixed;
+  width: 80%;
 }
 
-#content ol {
-  position: absolute;
-  width: 10vw;
-  background-color: chartreuse;
-  margin-left: 10vw;
-  animation: centertext 100000s infinite;
-  animation-fill-mode: forwards;
+#SideMenu ol li {
+  font-size: 65px;
+  border-bottom: white solid;
+  color: white;
 }
 
-@keyframes centertext {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 40vw;
-  }
-}
+/* <!----------- COPY THIS ----------->
+   <!----------- COPY THIS ----------->
+   <!----------- COPY THIS -----------> */
 /*# sourceMappingURL=Styles.css.map */
